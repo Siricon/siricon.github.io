@@ -7,6 +7,13 @@
     <title>Siricon Limited</title>
     <link rel="stylesheet" href="/styles/site.css">
     <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400,700" media="all">
+    <link rel="stylesheet" href="/fonts/fontawesome/css/font-awesome.min.css">
+    <meta property="og:url"           content="http://www.siricon.co.uk" />
+    <meta property="og:type"          content="website" />
+    <meta property="og:title"         content="Siricon Limited" />
+    <meta property="og:description"   content="Security Consultancy" />
+    <meta property="og:image"         content="http://www.siricon.co.uk/images/logo.png" />
+
   </head>
   <body>
     <header>
@@ -38,10 +45,12 @@
                   
                 
                   
+                
+                  
                     
                       <li>
                     
-                        <a href='/y1blog.html'>Thoughts</a>
+                        <a href='/y1blog.html'>Blog</a>
                     </li>
                   
                 
@@ -65,7 +74,7 @@
                     
                       <li class="active">
                     
-                        <a href='/y3contacts.html'>Contacts</a>
+                        <a href='/y3contacts.html'>Contact Us</a>
                     </li>
                   
                 
@@ -75,46 +84,172 @@
                 
                   
                 
+                  
+                
+                  
+                
+                  
+                
+            </ul>
+            <ul class="nav navbar-nav navbar-right social">
+              
+                <li><a href="https://www.facebook.com/Siricon-Limited-1127051783975130"><i class="fa fa-lg fa-facebook"></i></a></li>
+              
+              
+              
+              
+                <li><a href="https://www.linkedin.com/company-beta/11037048/"><i class="fa fa-lg fa-linkedin"></i></a></li>
+              
             </ul>
           </div>
+
         </div>
         </nav>
       </div>
     </header>
 
 <!--Row with two columns divided in 1:3 ratio-->
-
 <div class="container container-fluid content">
   <div class="row">
       <div class="col-sm-9"><!--Column left-->
-        <h2>Contacts</h2>
+        
+        <h2>Contact Us</h2>
         <hr>
+        
         <div class="staticPage">
-          
+          <form class="well form-horizontal" action=" " method="post"  id="contacForm">
+	<fieldset>
+			<div class="form-group">
+				<label class="col-md-3 control-label" >First Name</label> 
+				<div class="col-md-6 inputGroupContainer">
+					<div class="input-group">
+						<span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>
+						<input name="first_name" placeholder="First Name" class="form-control"  type="text">
+					</div>
+				</div>
+			</div>
+			<div class="form-group">
+				<label class="col-md-3 control-label" >Last Name</label> 
+				<div class="col-md-6 inputGroupContainer">
+					<div class="input-group">
+						<span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>
+						<input name="last_name" placeholder="Last Name" class="form-control"  type="text">
+					</div>
+				</div>
+			</div>
+			<div class="form-group">
+				<label class="col-md-3 control-label" >Email Address</label> 
+				<div class="col-md-6 inputGroupContainer">
+					<div class="input-group">
+						<span class="input-group-addon"><i class="glyphicon glyphicon-envelope"></i></span>
+						<input name="email" placeholder="Email Address" class="form-control"  type="text">
+					</div>
+				</div>
+			</div>
+			<div class="form-group">
+				<label class="col-md-3 control-label" >Phone Number</label> 
+				<div class="col-md-6 inputGroupContainer">
+					<div class="input-group">
+						<span class="input-group-addon"><i class="glyphicon glyphicon-phone"></i></span>
+						<input name="phone" placeholder="+44 xxxx xxx xxx" class="form-control"  type="text">
+					</div>
+				</div>
+			</div>
+			<div class="form-group">
+				<label class="col-md-3 control-label" >Comment or Detail</label> 
+				<div class="col-md-8 inputGroupContainer">
+					<div class="input-group">
+						<span class="input-group-addon"><i class="glyphicon glyphicon-pencil"></i></span>
+						<textarea name="comment" placeholder="More Information about your requirement" class="form-control" rows=5> </textarea>
+					</div>
+				</div>
+			</div>
+			<!-- Success message -->
+			<div class="alert alert-success" role="alert" id="success_message">
+				Success <i class="glyphicon glyphicon-thumbs-up"></i> 
+				Thanks for contacting us, we will get back to you shortly.
+			</div>
 
+			<!-- Button -->
+			<div class="form-group">
+				<label class="col-md-3 control-label"></label>
+				<div class="col-md-6">
+					<button type="submit" class="btn btn-default" >Send <span class="glyphicon glyphicon-send"></span>
+					</button>
+				</div>
+			</div>
+	</fieldset>
+</form>
         </div>
       </div>
-      <div class="col-sm-3"><!--Column right-->
-  <div class="recentPosts">
+      <div class="col-sm-3" ><!--Column right-->
+  
+  <div class="rightColumnBlock">
   <h3>Recent Posts</h3>
-  <ul class="entries">
+  <hr>
+  <ul class="entryList">
   
   
-        
-  
-        
-  
-        
-  
-        
-  
+        <li><a href='/article/2017/02/07/Another.html'>
+          <h4>Lewagon - Ruby on Rails</h4>
+          <h5 class="blogdate">07 February 2017</h5>
+        </a></li>
         
   
   </ul>
   
-  <p>No Posts have been registered yet</p>
+  </div>
+
+  <div class="rightColumnBlock">
+  <h3>Recent Downloads</h3>
+  <hr>
+  <ul class="entryList">
+  
+  
+        <li><a href='/download/2017/02/07/deduper.html'>
+          <h4>Image De-Duper</h4>
+          <h5 class="blogdate">07 February 2017</h5>
+        </a></li>
+        
+  
+  </ul>
   
   </div>
+
+  <div class="rightColumnBlock">
+    <h3>Archives by Month</h3>
+    <hr>
+    <p>&nbsp;&nbsp;&nbsp;Index for the Last 12 Months</p>
+    <ul class="entryList">
+
+
+  
+  
+  
+    <li class="entryItem"><a href="/2017/02/">February 2017</a></li>
+    
+  
+
+</ul>
+  </div>
+
+  <div class="rightColumnBlock">
+    <h3>Archives by Year</h3>
+    <hr>
+    <p>&nbsp;&nbsp;&nbsp;Index for All Years</p>
+    <ul class="entryList">
+
+
+  
+  
+  
+    <li class="entryItem"><a href="/2017/">Entries for 2017</a></li>
+    
+  
+
+</ul>
+  </div>
+  
 </div>
   </div>
 </div>
@@ -133,8 +268,10 @@
           					Location
           				</div>
           				<div class="footerItemText">
+                    <address>
           					1 Eden Way<br>
           					Winnersh, RG41 5PQ
+                    </address>
           				</div>
           			</div>
           		</div>
@@ -161,7 +298,7 @@
           					<br>Email
           				</div>
           				<div class="footerItemText">
-          					E:  info@siricon.co.uk
+          					E:  <a href="mailto:info@siricon.co.uk">info@siricon.co.uk</a>
           				</div>
           			</div>
           		</div>
@@ -184,6 +321,8 @@
     </footer>
     <script type="text/javascript" src="/js/jquery-3.1.1.min.js"></script>
     <script type="text/javascript" src="/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="/js/custom.js"></script>
+    <script type="text/javascript" src="/js/bootstrapValidator.js"></script>
 </head>
 <body>
 </body>

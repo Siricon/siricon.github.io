@@ -56,7 +56,7 @@
                 
                   
                     
-                      <li class="active">
+                      <li>
                     
                         <a href='/y2downloads.html'>Downloads</a>
                     </li>
@@ -113,53 +113,58 @@
   <div class="row">
       <div class="col-sm-9"><!--Column left-->
         
-        <h2>Downloads</h2>
+        <h2>Image De-Duper</h2>
         <hr>
         
         <div class="staticPage">
-          <h3 id="standard-disclaimer">Standard Disclaimer</h3>
+          <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
 
-<p>These are scripts and programs that were developed for personal use within Siricon.  They are provided here as downloads for others who may find them useful.  There is no express or implied
-warranty associated with the action or intent of these scripts.</p>
+  <header class="post-header">
+    <p class="post-meta">
+      <time datetime="2017-02-07T07:00:00+00:00" itemprop="datePublished">Feb 7, 2017</time>
+      </p>
+  </header>
+   
+  <div class="post-content" itemprop="articleBody">
+    <p>All of us find our hard drives and backup drives filled with multiple images from the phone and
+the digital cameras etc., and there are inevitably some duplicates.  This script is meant to help
+us orgnaize them.</p>
 
-<p>Please read through the description for each download, and some help is available about the download.
-Most of these scripts are written in python, and tested on Apple OSX - If there are other operating
-systems where the scripts are not functional as they should be, please do let us know, we may be able
-to provide a fix.</p>
+<p>The script works in the following way:</p>
+<ol>
+  <li>Calculate the MD5 hash of each of an image file and store it in a SQLITE db.</li>
+  <li>if the Hash has been seen before, ignore the file.</li>
+  <li>If the file has not been seen before, copy into Destination directory, and change the file name.</li>
+</ol>
 
-<hr>
-<div class="clearfix">
+<p>Options available within the script are self explanatory.</p>
+
+<figure class="highlight"><pre><code class="language-bash" data-lang="bash">	dedupe.py Version 0.74 <span class="o">(</span>http://www.siricon.co.uk/deduper<span class="o">)</span>
+	Usage: dedupe.py <span class="o">[</span>options]
+	ERROR
+		 option --help not recognized
+	OPTIONS
+		 -h Help
+		 -v Verbose debugging
+		 -s &lt;Source Directory&gt;
+		 -d &lt;Destination Directory&gt;
+		 -l &lt;number&gt; Limit the Run to &lt;number&gt; of images
+		 -r Rebuild the Database
+	LONG OPTIONS
+		 --srcdir<span class="o">=</span>&lt;Source Directory&gt;
+		 --destdir<span class="o">=</span>&lt;Destination Directory&gt;
+		 --limit<span class="o">=</span>&lt;number&gt; Limit the Run to &lt;number&gt; of images
+		 --rebuild Rebuild the Database</code></pre></figure>
+
+  </div>
+  
+    <a class="btn btn-warning" href="/downloads/deduper.zip">Download</a>
   
   
-    
-    
-    <div class="col-md-4">
-      <div class="dlEntry">
-        <div class="dlTitle"">
-          Image De-Duper
-        </div>  
-        <div class="dlContent">
-          <p>All of us find our hard drives and backup drives filled with multiple images from the phone and
-the digital cameras etc., and there are inevitab...
-        </div>
-        <div class="dlButtonBar">
-          <div class="dlButton"><a href="/download/2017/02/07/deduper.html">More</a></div>
-          <div class="dlButton"><a href="/downloads/deduper.zip">Download</a></div>
-        </div>
-      </div>
-    </div>
-  
-</div>
+</article>
         </div>
       </div>
       <div class="col-sm-3" ><!--Column right-->
-  
-  <div class="rightColumnBlock">
-    <h3>Licensing</h3>
-    <hr>
-    <p>All downloads presented in this page are provided under the GPL V3 license.  Please see <a href="https://tldrlegal.com/license/gnu-general-public-license-v3-(gpl-3)">TLDRLegal</a> for an explanation on GPL V3 license.  The original text of GPL V3 is published at <a href="https://www.gnu.org/licenses/gpl.html">gnu.org
-    </a>
-  </div>
   
   <div class="rightColumnBlock">
   <h3>Recent Posts</h3>
