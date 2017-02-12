@@ -43,46 +43,8 @@ $(document).ready(function() {
                         message: 'Please supply your phone number'
                     },
                     phone: {
-                        country: 'US',
-                        message: 'Please supply a vaild phone number with area code'
-                    }
-                }
-            },
-            address: {
-                validators: {
-                     stringLength: {
-                        min: 8,
-                    },
-                    notEmpty: {
-                        message: 'Please supply your street address'
-                    }
-                }
-            },
-            city: {
-                validators: {
-                     stringLength: {
-                        min: 4,
-                    },
-                    notEmpty: {
-                        message: 'Please supply your city'
-                    }
-                }
-            },
-            state: {
-                validators: {
-                    notEmpty: {
-                        message: 'Please select your state'
-                    }
-                }
-            },
-            zip: {
-                validators: {
-                    notEmpty: {
-                        message: 'Please supply your zip code'
-                    },
-                    zipCode: {
-                        country: 'US',
-                        message: 'Please supply a vaild zip code'
+                        country: 'GB',
+                        message: 'Please supply a vaild phone number'
                     }
                 }
             },
@@ -101,19 +63,13 @@ $(document).ready(function() {
             }
         })
         .on('success.form.bv', function(e) {
+            console.log('Started..');
             $('#success_message').slideDown({ opacity: "show" }, "slow") // Do something ...
-                $('#contact_form').data('bootstrapValidator').resetForm();
-
-            // Prevent form submission
+                $('#contactForm').data('bootstrapValidator').resetForm();
             e.preventDefault();
-
-            // Get the form instance
             var $form = $(e.target);
-
-            // Get the BootstrapValidator instance
             var bv = $form.data('bootstrapValidator');
-
-            // Use Ajax to submit form data
+            console.log(bv);
             $.post($form.attr('action'), $form.serialize(), function(result) {
                 console.log(result);
             }, 'json');
