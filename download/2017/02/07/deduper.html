@@ -161,15 +161,17 @@ us orgnaize them.</p>
   
   
       
-<hr>
-<h1>Discussion</h1>
+
+<div class="commentBlock">
+<h2>Comments</h2>
 <div id="disqus_thread"></div>
     <script>
-    /**
-    *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
-    *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables*/
-    /*
-    */
+    var disqus_config = function () {
+        this.page.url = "http://www.siricon.co.uk/download/2017/02/07/deduper.html";  
+        this.page.identifier = "16e8a0b2b47b16f36188cd6410949b22"; 
+        alert(this.page.url);
+        alert(this.page.identifier);
+    };
     
     (function() { // DON'T EDIT BELOW THIS LINE
     var d = document, s = d.createElement('script');
@@ -179,6 +181,9 @@ us orgnaize them.</p>
     })();
 </script>
 <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+</div>
+
+
 
   
 </article>
