@@ -1,5 +1,58 @@
-<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xml" href="/feed.xslt.xml"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.4.0">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2017-02-15T08:24:29+00:00</updated><id>//</id><title type="html">Siricon Limited</title><subtitle>Siricon - for Security Consultancy and Programming.  Consultancy is the main-stay of the business, but  Programming is the passion.
-</subtitle><entry><title type="html">Standing on the shoulders of Giants</title><link href="/article/2017/02/11/giants-and-shoulders.html" rel="alternate" type="text/html" title="Standing on the shoulders of Giants" /><published>2017-02-11T22:00:00+00:00</published><updated>2017-02-11T22:00:00+00:00</updated><id>/article/2017/02/11/giants-and-shoulders</id><content type="html" xml:base="/article/2017/02/11/giants-and-shoulders.html">&lt;p&gt;Many many tools have been used in the creation of this website, and it is very important to give credit where it is due.  In no particular order, this is an attempt to recognize and thank their creators for all the tools / platforms that enable this website to function.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xml" href="/feed.xslt.xml"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.4.0">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2017-05-23T22:14:11+01:00</updated><id>//</id><title type="html">Siricon Limited</title><subtitle>Siricon - for Security Consultancy and Programming.  Consultancy is the main-stay of the business, but  Programming is the passion.
+</subtitle><entry><title type="html">Security in the Banking Industry</title><link href="/article/2017/05/22/finance-industry-and-security.html" rel="alternate" type="text/html" title="Security in the Banking Industry" /><published>2017-05-22T18:00:00+01:00</published><updated>2017-05-22T18:00:00+01:00</updated><id>/article/2017/05/22/finance-industry-and-security</id><content type="html" xml:base="/article/2017/05/22/finance-industry-and-security.html">&lt;p&gt;Cyber Security in the Finance industry is a bit of a mix - The banks have to secure their technology against insiders, outsiders and customers - basically, everyone, and they get to do it while keeping the business running and making it simple for the customers to use their services.  Ofcourse, the security landscape changes every day and every minute, so keeping up to the changing landscape can feel like a bit of maintaining a running engine with one hand tied to the back!&lt;/p&gt;
+
+&lt;!--break--&gt;
+&lt;p&gt;In any developing or developed nation today, it can be safely said that one of the top 10 challenges faced by banks and financial institutions is competition from financial technology (FinTech) companies.  These disruptive start-up companies can use technology to disrupt traditional channels of commerce, and force traditional banks to adopt technology at a pace that is outside their comfort zone.  This has led to challenges within the traditional financial sector that are unique in nature.  I have tried to list and discuss some of these challenges in this article, as I see them.&lt;/p&gt;
+
+&lt;h3&gt;Investment justified by Risk&lt;/h3&gt;
+&lt;p&gt;Even Organizations whose core business is not IT are fairly used to using IT as an enabler in the last 40 years, so have had a good IT budget.  However, in the recent times, there has been an impetus for huge investments in the area of securing those older IT systems for the banking institutions.  A &lt;a href=&quot;https://www.sans.org/reading-room/whitepapers/analyst/security-spending-trends-36697&quot;&gt;SANS&lt;/a&gt; whitepaper from 2016 calls out that the median spend from IT budget into security is between 7% and 9%.  Financial organizations that attempt to implement security well, will spend up to 30% of their IT budgets on security in my experience.  The &lt;a href=&quot;https://www.sans.org/reading-room/whitepapers/analyst/security-spending-trends-36697&quot;&gt;SANS&lt;/a&gt; article also hints at this by showing that Medium and large organizations tend to spend that much.  This investment is typically justified only by the risk of not having it, and often increases the overall cost of operational cost of IT in other aspects as well.  For an industry that spent the last 100 years analysing investments in terms of Risk vs Reward, the biggest risk is that their IT Operations teams are unable to translate the IT risk they face into concrete monetary numbers.  IT Risk assessment becomes the key factor for the industry.&lt;/p&gt;
+
+&lt;h3&gt;Where are they spending the additional Money?&lt;/h3&gt;
+&lt;p&gt;The areas they end up spending that money is roughly in these areas:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Securing the PII (Personally Identifiable Information) data&lt;/li&gt;
+  &lt;li&gt;Big Data (Buzz word or reality, your choice!)&lt;/li&gt;
+  &lt;li&gt;Cyber Security (Preventing third party attacks)&lt;/li&gt;
+  &lt;li&gt;Cloud Adoption&lt;/li&gt;
+  &lt;li&gt;Technological protection for people dependant processes&lt;/li&gt;
+  &lt;li&gt;Helping customers protect themselves&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3&gt; Securing the PII&lt;/h3&gt;
+&lt;p&gt;The focus on securing PII is varying in different regions depending on the regulatory focus within that region.  The spend on this area is directly proportional to the Regulatory requirements imposed.  This means that institutions that deal with multiple regions have a higher overhead on their IT systems.&lt;/p&gt;
+
+&lt;p&gt;Typically, GRC (Governance, Regulation and Compliance) software solutions come into play in this area, and this was the huge focus 4 or 5 years ago.  Now this is an assumed area of maturity and the focus has moved elsewhere.&lt;/p&gt;
+
+&lt;h3&gt;Cyber Security&lt;/h3&gt;
+&lt;p&gt;This is the area that gets all the attention in the media and sometimes glorifies ‘hacking’ and ‘hacktivism’.  Preventing direct and indirect third party attacks on organizations is an industry in itself.  In Europe, financial institutions face direct attacks on their infrastructure virtually on a daily basis, and this is a game of cat and mouse between the security enablers and the black hats.&lt;/p&gt;
+
+&lt;p&gt;It has to be mentioned that with mobile presence almost a requirement for financial institutions, the cyber threat landscape has widened.&lt;/p&gt;
+
+&lt;p&gt;Typically, Network security elements like IPS, IDS, Firewalls, Protocol Analyzers, Big Data Tools correlation tools, Traffic Analyzers, Web Protection software solutions etc., come into play in this area.  Implementation of a SOC (Security Operations Centre) to bring data from all these tools into a single platform to provide analysis and visualization is all the rage with many institutions today, including financial institutions.&lt;/p&gt;
+
+&lt;h3&gt;Big Data&lt;/h3&gt;
+&lt;p&gt;This is both the buzz word and a reality!  Financial institutions have always had the concept of data warehousing in place, where source data from many of their systems were ‘warehoused’ in to a single data aggregator system, so that analysis could be provided on customer behaviour, money flow and other aspects.  However, these used to be custom built platforms that were designed for context aggregation and petabytes of data than agility.  However, IT has now come up with the buzz word ‘Big Data’ and technological platforms that can implement the warehousing concept with agility, and produce context with artificial intelligence.&lt;/p&gt;
+
+&lt;p&gt;Big Data platforms tend to be used in financial institutions for aspects like AML (Anti-Money Laundering), Fraud Prevention, Behaviour Analysis and marketing, input into product and campaign design and of course, as mentioned earlier - Security.&lt;/p&gt;
+
+&lt;h3&gt;Cloud Adoption&lt;/h3&gt;
+&lt;p&gt;‘The Cloud’ is another addition to the IT landscape in the recent times.  There are many forms of ‘cloud’ and even greater numbers of interpretation of what it means to take IT to the cloud.  However, when burnt to basics, cloud computing is nothing but delivery of hosted services over the internet.  The services could be infrastructure, platforms or software. (IAAS, PAAS and SAAS being the corresponding buzz words where AAS = As a Service)&lt;/p&gt;
+
+&lt;p&gt;Financial institutions view IT as a necessary burden, and any option where the burden can be transferred to others while keepign the costs low is always a charm.  The last decade was about transferring IT services cost to ‘offshore’ or ‘onshore’ partners whose core business was IT.  This decade is about transferring ‘infrastructure’ and ‘platforms’ to partners who can do hosting of these items better, so enter ‘the cloud’.&lt;/p&gt;
+
+&lt;p&gt;Cloud computing, however, brings its own set of security challenges - like secure storage of data in a shared environment, and auditing a provider to ensure that they have secure practices.  The IT industry as whole is just coming to terms with these challenges, so the help available to the financial institutions is limited and expensive.&lt;/p&gt;
+
+&lt;h3&gt;Technological Protection for People dependant processes&lt;/h3&gt;
+&lt;p&gt;Financial institutions typically deal with a huge number of customers. So majority of their customer facing channels depend on an employee delivering service over that channel.  (Examples of channels are Face to Face, Over the Phone, Chat over Internet etc.,)  This necessarily means that employees are privy to the data being discussed, updated etc.,  For example, if my account were to be discussed with a clerk, the clerk will know my balance, my spending habits, my assets and my liabilities.  They would need this data to service my needs.&lt;/p&gt;
+
+&lt;p&gt;However, the focus on PII forces banks to have another look at these personal interactions, and come up with clever technological solutions to limit the data the employees need to service specific customer needs.  This introduces software solutions customized for specific channels, and additional hardware solutions that enable security while still meeting customer needs.  Of course, security components on all these solutions add up to the cost.&lt;/p&gt;
+
+&lt;h3&gt;Helping Customers protect their endpoints&lt;/h3&gt;
+&lt;p&gt;Lastly, some financial institutions are also attempting to help their customers by providing anti-malware software or other similar protection software for their PCs and other end points, in an effort to ensure that their customers are protected from recent outbreaks like ‘wannacry’.  This is a path built with good intentions, but fraught with thorns.  End-point protection is a tricky space and the banks risk becoming the PC support contact point for the customers.  There is no evidence to show that this has made their business interactions better.&lt;/p&gt;
+
+&lt;p&gt;The gullible customers still fall prey to such virus / malware and other attacks, but by spending the security budget for customers, banks tend to successfully transfer liability to the customers.&lt;/p&gt;
+
+&lt;p&gt;The conclusion is that while investments continue to grow in security, the pace of change in security landscape is as fast, or faster.  Traditional assumptions about security no longer hold true, and attacks from both within and outside happen all the time.  The old paradigm of stronger perimeter and lax internals has been shattered, and what remains is vastly different from yesterday.&lt;/p&gt;</content><author><name>Gani Bhagavathula</name></author><summary type="html">Cyber Security in the Finance industry is a bit of a mix - The banks have to secure their technology against insiders, outsiders and customers - basically, everyone, and they get to do it while keeping the business running and making it simple for the customers to use their services.  Ofcourse, the security landscape changes every day and every minute, so keeping up to the changing landscape can feel like a bit of maintaining a running engine with one hand tied to the back!</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="/images/cyberlock.jpg" /></entry><entry><title type="html">Standing on the shoulders of Giants</title><link href="/article/2017/02/11/giants-and-shoulders.html" rel="alternate" type="text/html" title="Standing on the shoulders of Giants" /><published>2017-02-11T22:00:00+00:00</published><updated>2017-02-11T22:00:00+00:00</updated><id>/article/2017/02/11/giants-and-shoulders</id><content type="html" xml:base="/article/2017/02/11/giants-and-shoulders.html">&lt;p&gt;Many many tools have been used in the creation of this website, and it is very important to give credit where it is due.  In no particular order, this is an attempt to recognize and thank their creators for all the tools / platforms that enable this website to function.&lt;/p&gt;
 
 &lt;!--break--&gt;
 
@@ -137,20 +190,4 @@ More information about Resource Solutions at their Home Page</summary></entry><e
   
 
 
-More information about Lloyds Banking Group at their Home Page</summary></entry><entry><title type="html">Infoplus Limited</title><link href="/client/2017/02/07/infoplus.html" rel="alternate" type="text/html" title="Infoplus Limited" /><published>2017-02-07T07:00:00+00:00</published><updated>2017-02-07T07:00:00+00:00</updated><id>/client/2017/02/07/infoplus</id><content type="html" xml:base="/client/2017/02/07/infoplus.html">&lt;ul&gt;
-  &lt;li&gt;
-    &lt;p&gt;Infoplus Limited is one of the organizations Siricon has worked with as an directclient supplier.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Services were provided directly into Infoplus Limited&lt;/p&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;More information about Infoplus Limited at their &lt;a href=&quot;http://www.infoplusltd.com&quot;&gt;Home Page&lt;/a&gt;&lt;/p&gt;</content><summary type="html">Infoplus Limited is one of the organizations Siricon has worked with as an directclient supplier.
-  
-  
-    Services were provided directly into Infoplus Limited
-  
-
-
-More information about Infoplus Limited at their Home Page</summary></entry></feed>
+More information about Lloyds Banking Group at their Home Page</summary></entry></feed>
